@@ -252,7 +252,7 @@
 
                     #progress {
                         display: grid;
-                        grid-template-columns: auto auto auto;
+                        grid-template-columns: auto auto auto auto;
                         gap: 30px;
 
                         .progress-bar-container {
@@ -261,8 +261,8 @@
 							align-items: center;
 
                             .progress-bar {
-                                width: 100px;
-                                height: 100px;
+                                width: 80px;
+                                height: 80px;
                                 border-radius: 50%;
 
                                 display: flex;
